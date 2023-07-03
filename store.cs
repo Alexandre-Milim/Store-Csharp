@@ -117,7 +117,8 @@ public class TiposDePagamento
 
     public static void PagamentoPix()
     {
-        Console.WriteLine("Pagamento via Pix selecionado.");
+        Console.WriteLine("Digite o numero do telefone");
+		float Telefone = Console.ReadLine();
     }
 
     public static void PagamentoBoleto()
