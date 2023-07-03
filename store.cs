@@ -95,7 +95,7 @@ public class TiposDePagamento
         Console.WriteLine("Você possui o cartão da loja? (sim/não)");
         string possuiCartao = Console.ReadLine();
 
-        if (possuiCartao.ToLower() == "não")
+        if (possuiCartao.ToLower() == "nao")
         {
             Console.WriteLine("Deseja fazer um cartão da loja? (sim/não)");
             string escolha = Console.ReadLine();
