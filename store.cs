@@ -57,8 +57,7 @@ public class TiposDePagamento
 
         if (ValidarCredenciais(cpf, senha)) 
         {
-            Console.WriteLine("Dados corretos. Efetuar compra...");
-            // Implemente aqui a lógica para efetuar a compra
+            Console.WriteLine("Dados corretos. Efetuar compra...")
         }
         else
         {
@@ -126,12 +125,12 @@ public class TiposDePagamento
         Console.WriteLine("Pagamento via Boleto selecionado.");
     }
 
-    private static bool ValidarCredenciais(string cpf, string senha) //aqui ele passa duas variaveis como string
+    private static bool ValidarCredenciais(string cpf, string senha) 
     {
-        string cpfValido = "12"; //aqui ele marca os valores do cpf e senha
+        string cpfValido = "12"; /
         string senhaValida = "12";
 
-        return cpf == cpfValido && senha == senhaValida; // e fala que as variaveis escrita nos parametro são iguais, e assim usar na função PreencherDadosDoUsuario
+        return cpf == cpfValido && senha == senhaValida;
     }
 }
 
